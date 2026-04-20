@@ -39,7 +39,7 @@ def get_session():
 root = Root(get_session())
 executor = ThreadPoolExecutor(max_workers=5)
 
-MODEL = "claude-3-5-sonnet"
+MODEL = "claude-4-sonnet"
 
 DB = "ST_ASSISTANT"
 SCHEMA = "PUBLIC"
